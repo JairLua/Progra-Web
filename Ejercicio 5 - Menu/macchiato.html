@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Macchiato</title>
+</head>
+<body>
+    <header>
+        <h1 style="font-weight: normal;">
+            <strong>Cafetería</strong> (¡mi primera chamba!)
+        </h1>
+        <h2>Macchiato</h2>
+        <hr>
+        <nav>
+            <a href="https://jairlua.free.nf/index.html">Inicio</a>
+            <a>/ Bebidas /</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <img src="macchiato.jpg" alt="Imagen de un macchiato"  width="300">
+        <p><strong>Descripción:</strong> Bebida de café italiana que combina un espresso con una pequeña cantidad de leche espumada, resaltando el sabor intenso del café con un toque cremoso.</p>
+        <label for="sabor"><strong>Sabor:</strong></label>
+        <select name="sabor" id="sabor">
+            <option value="caramelo">Caramelo</option>
+            <option value="vainilla">Vainilla</option>
+            <option value="avellana">Avellana</option>
+        </select>
+        <br>
+        <p><strong>Tamaño y Precio:</strong></p>
+        <label for="chico">
+            <input type="radio" name="tamanio" id="chico" value="chico"> Chico - $35 MXN
+        </label><br>
+        <label for="mediano">
+            <input type="radio" name="tamanio" id="mediano" value="mediano"> Mediano - $45 MXN
+        </label><br>
+        <label for="grande">
+            <input type="radio" name="tamanio" id="grande" value="grande"> Grande - $55 MXN
+        </label><br>
+    </main>
+</body>
+</html>
